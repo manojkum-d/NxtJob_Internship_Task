@@ -5,7 +5,7 @@ import {
   processPayment,
   getPaymentStatus,
   refundPayment,
-} from "./paymentController";
+} from "../controller/payments/paymentController";
 
 const paymentRoutes = express.Router();
 

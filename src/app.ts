@@ -4,7 +4,7 @@ import globalErrorHandler from "./middlewares/golbalErrorHandler";
 
 import { config } from "./config/config";
 import createHttpError from "http-errors";
-import paymentRoutes from "./payment/paymentRoutes";
+import paymentRoutes from "./routes/paymentRoutes";
 
 const app = express();
 

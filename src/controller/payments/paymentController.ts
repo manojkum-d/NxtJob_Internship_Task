@@ -1,9 +1,9 @@
 // controllers/paymentController.ts
 import { Request, Response, NextFunction } from "express";
 import createHttpError from "http-errors";
-import { Payment } from "./paymentModel";
-import { Transaction, ITransaction } from "../transaction/transactionModel";
-import logger from "../utils/logger";
+import { Payment } from "../../model/paymentModel";
+import { Transaction, ITransaction } from "../../model/transactionModel";
+import logger from "../../utils/logger";
 
 export const createPayment = async (
   req: Request,
